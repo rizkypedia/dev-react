@@ -9,15 +9,18 @@ import Gallery from './components/Tutorial/Gallery'
 import TodoList from './components/Tutorial/TodoList';
 import PackingList from './components/Tutorial/PackingList';
 import List from './components/Tutorial/List'
+import Toolbar from './components/Tutorial/Toolbar';
+import Form from './components/Tutorial/Form';
+import FormInput from './components/Tutorial/FormInput';
 
 function App() {
   return (
   
     <div className="App">
-      <Gallery/>
-      <TodoList/>
-      <PackingList/>
-      <List/>
+      <FormInput/>
+
+
+
     </div>
   );
 }
